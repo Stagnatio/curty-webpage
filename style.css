@@ -1,4 +1,6 @@
 .container {
+    position: relative;
+    top: 200px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
@@ -7,4 +9,12 @@
 
 li {
     padding: 5px 20px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.navbar-brand {
+    padding-left: 20px;;
 }
