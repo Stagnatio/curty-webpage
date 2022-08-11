@@ -1,4 +1,10 @@
+body {
+    background-color: blanchedalmond;
+}
+
 .container {
+    background-color: white;
+    padding: 50px;
     position: relative;
     top: 200px;
     display: grid;
