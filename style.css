@@ -1,5 +1,6 @@
 body {
     background-color: blanchedalmond;
+    overflow: scroll;
 }
 
 .container {
@@ -29,4 +30,9 @@ img {
     max-width: 100%;
     height: auto;
     width: auto;
+}
+
+i {
+    color: white;
+    font-size: 1.25rem;
 }
