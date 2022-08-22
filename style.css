@@ -7,26 +7,36 @@ body {
     background-color: white;
     padding: 50px;
     position: relative;
-    top: 200px;
+    top: 10vw;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     align-content: center;
-}
-
-li {
-    padding: 5px 20px;
+    min-width: 0;
 }
 
 .text {
-    padding: 20px;
+    min-width: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+.text {
+    /*padding: 20px;*/
+    max-width: 100%;
 }
 
 .navbar-brand {
     padding-left: 20px;;
 }
+.nav-item {
+    padding: 5px 20px;
+}
 
 img {
+    padding-right: 20px;
     max-width: 100%;
     height: auto;
     width: auto;
