@@ -1,1 +1,1 @@
-# curty-webpage
+This is a webpage I built for my brother using a modified bootstrap header.
